@@ -14,11 +14,8 @@ python syntax 연습도 할 겸, 그리고 이제 C로는 그만 좀 해야지..
 이번에는 좀 꾸준히 많이 풀어 보자. Hackerrank를 할까 Leetcode를 할까 하다가 그냥 Leetcode 1번부터 차례로 풀기로 정했다.
 
 첫번째의 brute force로 풀면 간단하긴 하지만 시간이 정말 오래 걸린다. <br />
-짱구를 열심히 굴린 두번째 방법은 O(n log n) 으로 줄어서 시간이 많이 빨라졌다. <br />
-중간에 있는 오답은 신경쓰지 말자... <br />
-Hash를 쓰면 O(n)까지 갈수 있을텐데.. 내일 하자.
-
-<img src="/blog/assets/images/twosum.png" witdh="50">
+짱구를 열심히 굴린 두번째 방법은 O(n log n) 으로 줄어서 시간이 많이 빨라졌다. 중간에 있는 오답은 신경쓰지 말자...<br />
+Hash를 쓰면 O(n)까지 갈수 있을텐데.. 나중에 하자.
 
 ```python
 class Solution(object):
@@ -75,3 +72,5 @@ class Solution(object):
         # no such pair, return empty list
         return ret
 ```
+
+![speed up](/blog/assets/images/twosum.png)
