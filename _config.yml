@@ -72,12 +72,12 @@ feed:
 safe: False
 lsi: False
 username: sky417
-repo: jasper2
+repo: blog
 branch: master
 relative_source: ../sky417/
-destination: ../jasper2-pages/
+#destination: ../blog/
 production_url:  https://sky417.github.io/blog/
-source_url:  https://github.com/sky417/jasper2/
+source_url:  https://github.com/sky417/blog/
 
 exclude:
   - assets/css
@@ -96,3 +96,4 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+  - original_posts
