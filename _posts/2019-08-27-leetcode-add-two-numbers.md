@@ -59,7 +59,7 @@ class Solution(object):
 
         '''
         1) parse lists into number
-        2) convert the sum int list and return
+        2) convert the sum into linked list and return
         '''
         num1 = self.parseList(l1)
         num2 = self.parseList(l2)
