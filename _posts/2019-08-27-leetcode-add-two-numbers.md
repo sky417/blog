@@ -10,6 +10,12 @@ author: ayoon
 ---
 [Add Two Numbers]("https://leetcode.com/problems/add-two-numbers/")
 
+Helper function을 두개 써서..
+1) LL to integer
+2) integer to LL
+
+바꾸고, 더하고, 다시 바꾸면.. O(n) 이 되겠시며.
+
 ```python
 # Definition for singly-linked list.
 # class ListNode(object):
